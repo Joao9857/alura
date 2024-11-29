@@ -1,0 +1,32 @@
+-7,11 +7,11 @@
+77
+   <link
+88
+       href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+99
+       rel="stylesheet">
+10
+-
+   <title>Aluraflix</title>
+10
++
+   <title>Guiminamflix</title>
+1111
+</head>
+1212
+
+1313
+<body>
+14
+-
+   <header>ALURAFLIX</header>
+14
++
+   <header>GUIMINAMFLIX</header>
+1515
+
+1616
+   <section class="chamada">
+1717
+       <div class="chamada-texto">
+
