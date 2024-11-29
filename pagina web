@@ -1,0 +1,450 @@
+ -3,6 +3,7 @@ body {
+3
+3
+   background: black;
+
+
+4
+4
+   margin: 0px;
+
+
+5
+5
+   font-family: "Chakra Petch", sans-serif;
+
+1
+
+
+
+
+6
++
+   margin-bottom: 100px;
+
+
+6
+7
+}
+
+
+7
+8
+
+
+
+
+8
+9
+header {
+
+
+@@ -32,10 +33,6 @@ p {
+32
+33
+   font-size: 20px;
+
+
+33
+34
+}
+
+
+34
+35
+
+
+
+
+35
+
+
+-
+img {
+
+
+36
+
+
+-
+   height: 200px;
+
+
+37
+
+
+-
+}
+
+
+38
+
+
+-
+
+
+39
+36
+.categoria-videos {
+
+
+40
+37
+   display: flex;
+
+
+41
+38
+   overflow-x: auto;
+
+
+@@ -45,4 +42,19 @@ img {
+45
+42
+.categoria {
+
+
+46
+43
+   padding-left: 20px;
+
+
+47
+44
+   padding-right: 20px;
+
+
+
+
+45
++
+   margin-top: 50px;
+
+
+
+
+46
++
+}
+
+
+
+
+47
++
+
+
+
+
+48
++
+.categoria-videos img {
+
+
+
+
+49
++
+   opacity: 0.5;
+
+
+
+
+50
++
+   height: 200px;
+
+
+
+
+51
++
+}
+
+
+
+
+52
++
+
+
+
+
+53
++
+.categoria-videos img:hover {
+
+
+
+
+54
++
+   opacity: 1.0;
+
+
+
+
+55
++
+   border: 3px solid green;
+
+
+
+
+56
++
+}
+
+
+
+
+57
++
+
+
+
+
+58
++
+.categoria h2 {
+
+
+
+
+59
++
+   color: rgb(42, 122, 228);
+
+
+48
+60
+}
+
+
+
+
+ -3,6 +3,7 @@ body {
+3
+3
+   background: black;
+
+
+4
+4
+   margin: 0px;
+
+
+5
+5
+   font-family: "Chakra Petch", sans-serif;
+
+1
+
+
+
+
+6
++
+   margin-bottom: 100px;
+
+
+6
+7
+}
+
+
+7
+8
+
+
+
+
+8
+9
+header {
+
+
+@@ -32,10 +33,6 @@ p {
+32
+33
+   font-size: 20px;
+
+
+33
+34
+}
+
+
+34
+35
+
+
+
+
+35
+
+
+-
+img {
+
+
+36
+
+
+-
+   height: 200px;
+
+
+37
+
+
+-
+}
+
+
+38
+
+
+-
+
+
+39
+36
+.categoria-videos {
+
+
+40
+37
+   display: flex;
+
+
+41
+38
+   overflow-x: auto;
+
+
+@@ -45,4 +42,19 @@ img {
+45
+42
+.categoria {
+
+
+46
+43
+   padding-left: 20px;
+
+
+47
+44
+   padding-right: 20px;
+
+
+
+
+45
++
+   margin-top: 50px;
+
+
+
+
+46
++
+}
+
+
+
+
+47
++
+
+
+
+
+48
++
+.categoria-videos img {
+
+
+
+
+49
++
+   opacity: 0.5;
+
+
+
+
+50
++
+   height: 200px;
+
+
+
+
+51
++
+}
+
+
+
+
+52
++
+
+
+
+
+53
++
+.categoria-videos img:hover {
+
+
+
+
+54
++
+   opacity: 1.0;
+
+
+
+
+55
++
+   border: 3px solid green;
+
+
+
+
+56
++
+}
+
+
+
+
+57
++
+
+
+
+
+58
++
+.categoria h2 {
+
+
+
+
+59
++
+   color: rgb(42, 122, 228);
+
+
+48
+60
+}
+
+
+
+
